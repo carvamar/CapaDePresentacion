@@ -1,0 +1,294 @@
+﻿/* Estilos para upper nav*/
+.upper-nav {
+    background-color: #f5eedc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .upper-nav .nav-link,
+    .upper-nav .nav-link i {
+        color: #5a5a5a;
+    }
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link i {
+    color: #5a5a5a;
+}
+
+.upper-nav .nav-link {
+    margin-right: 15px;
+}
+
+/* Estilos para main nav*/
+.navbar-main {
+    background-color: #e3d1b9;
+}
+
+    .navbar-main .nav-link,
+    .navbar-main .navbar-brand,
+    .navbar-main .nav-link i {
+        color: #5a5a5a;
+    }
+
+/* Estilos para footer*/
+footer {
+    background-color: #e3d1b9;
+    color: #5a5a5a;
+    padding: 40px 0;
+}
+
+    footer h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    footer p {
+        font-size: 1rem;
+        color: #5a5a5a;
+    }
+
+    footer a {
+        color: #5a5a5a;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+        footer a:hover {
+            color: #8b6d4e;
+        }
+
+.footer-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #5a5a5a;
+    transition: color 0.3s;
+}
+
+    .footer-icons i:hover {
+        color: #8b6d4e;
+    }
+
+.footer-icons {
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.block-23 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .block-23 ul li {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+        .block-23 ul li .icon {
+            font-size: 1.3rem;
+            margin-right: 10px;
+        }
+
+        .block-23 ul li a {
+            color: #5a5a5a;
+        }
+
+            .block-23 ul li a:hover {
+                color: #8b6d4e;
+            }
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+footer .text-center p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #5a5a5a;
+}
+
+/* Estilos para la sección con la foto de fondo */
+.photo-section {
+    position: relative;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 20px;
+    background: none;
+}
+
+.photo-section h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.photo-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.photo-section .btn-custom {
+    background-color: #d1a054;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .photo-section .btn-custom:hover {
+        background-color: #b78842;
+    }
+
+/* Estilos para  sección de texto*/
+.text-section {
+    padding: 80px 20px; 
+    text-align: center; 
+}
+
+    .text-section h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #5a5a5a;
+    }
+
+
+    .text-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #777; 
+    }
+
+    .text-section p {
+        font-size: 1.25rem;
+        color: #5a5a5a; 
+        max-width: 800px;
+        margin: 0 auto; 
+        padding: 0 20px; 
+    }
+
+.services-section {
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+    .services-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        color: #5a5a5a;
+    }
+
+.service-item {
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+    margin: 0 auto; 
+}
+
+    .service-item img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+.service-item-body {
+    padding: 20px;
+    color: #5a5a5a;
+}
+
+    .service-item-body h4 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .service-item-body p {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        color: #777;
+        line-height: 1.6;
+    }
+
+ 
+    .service-item-body .btn-custom {
+        background-color: #a67b5b; 
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 1.1rem;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+
+        .service-item-body .btn-custom:hover {
+            background-color: #8b6d4e; 
+            transform: translateY(-5px);
+        }
+
+.service-item-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/*Estilos sobre nosotros*/
+.about-section {
+    text-align: center;
+    background-color: #d2a866;
+    padding: 30px;
+    position: relative;
+}
+
+    .about-section .about-image {
+        width: 80%; 
+        margin-top: -100px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-section .about-content {
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #d2a866;
+        color: #fff;
+        line-height: 1.6;
+    }
+
+    .about-section .about-title {
+        font-size: 2em;
+        margin-bottom: 15px;
+        color: #f5eedc;
+    }
+
+ /*Estilos Servicios */
+.btn:hover {
+    background-color: #8f6740;
+    color: white;
+}
