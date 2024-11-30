@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {}
+    "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {
+    "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+        "projectUniqueName": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
         "projectName": "CapaDePresentacion",
-        "projectPath": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+        "projectPath": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
         "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\obj\\",
+        "outputPath": "C:\\Users\\celes\\source\\repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
