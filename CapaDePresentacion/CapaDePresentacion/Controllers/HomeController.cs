@@ -18,7 +18,17 @@ namespace CapaDePresentacion.Controllers
 			return View();
 		}
 
-		public IActionResult Privacy()
+        public IActionResult Cita()
+        {
+            return View();
+        }
+
+        public IActionResult Perfil()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
 		{
 			return View();
 		}

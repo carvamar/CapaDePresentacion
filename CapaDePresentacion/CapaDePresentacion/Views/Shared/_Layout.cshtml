@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>GP Enfermería Estética Y Spa</title>
+    <title>GP Enfermería Estética Y Spa</title>
     <link rel="icon" href="/images/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="/css/StyleSheet.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Maitree&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,7 +23,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">USD</a></li>
                         <li><a class="dropdown-item" href="#">EUR</a></li>
-                        <li><a class="dropdown-item" href="#">GBP</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
@@ -33,7 +32,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Español</a></li>
                         <li><a class="dropdown-item" href="#">English</a></li>
-                        <li><a class="dropdown-item" href="#">Français</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +40,7 @@
         <!-- Main Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-main">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#">
+                <a class="nav-link" style="font-weight: 700 !important;" asp-controller="Home" asp-action="Index">
                     <img src="/images/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-top">
                     | GP Enfermería Estética Y Spa
                 </a>
@@ -59,6 +57,12 @@
                         </li>
                         <li class="nav-item me-7">
                             <a class="nav-link" href="#">Afiliados</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Cita">Cita</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Perfil">Perfil</a>
                         </li>
                         <li class="nav-item ms-1 me-5">
                             <a class="nav-link" href="#">
@@ -79,7 +83,7 @@
     <footer>
         <div class="container">
             <div class="row mb-5 footer-section">
-    
+
                 <div class="col-md-3">
                     <div class="mb-5">
                         <h2 style=" font-weight: 600;">Sobre nosotros</h2>
@@ -97,7 +101,7 @@
                         </ul>
                     </div>
                 </div>
-              
+
                 <div class="col-md-3">
                     <div class="mb-5">
                         <h2 style=" font-weight: 600;">Ponte en contacto</h2>
@@ -124,6 +128,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
