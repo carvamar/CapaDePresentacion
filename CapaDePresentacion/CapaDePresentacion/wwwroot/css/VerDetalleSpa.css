@@ -1,0 +1,98 @@
+﻿/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+/* Detalles del servicio */
+#detalle-servicio {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #detalle-servicio:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    #detalle-servicio p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    #detalle-servicio strong {
+        color: #3498db;
+    }
+
+/* Estilos de botones */
+.btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #3498db;
+        transform: scale(1.05);
+    }
+
+/* Espaciado y márgenes */
+main {
+    margin-top: 50px;
+}
+
+/* Estilos para el contenedor de detalles */
+#servicio-nombre {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Mejora visual para los enlaces */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+    a:hover {
+        color: #3498db;
+    }
+
+/* Estilo del footer */
+footer {
+    background-color: #D7A37B; /* Color de fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+    footer p {
+        color: #5A5A5A; /* Color del texto */
+        font-size: 0.9rem;
+    }

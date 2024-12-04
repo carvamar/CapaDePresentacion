@@ -1,0 +1,151 @@
+﻿/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #5A5A5A; /* Cambiado el color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la galería de imágenes */
+#galeria {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #galeria:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    #galeria img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+        #galeria img:hover {
+            transform: scale(1.05);
+        }
+
+/* Estilos para el carrusel */
+.carousel-inner img {
+    max-width: 80%; /* Tamaño reducido de las imágenes */
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para los controles del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #D7A37B; /* Color de los controles */
+    border-radius: 50%;
+}
+
+/* Estilos de botones */
+.btn-custom {
+    background-color: #D7A37B; /* Fondo de los botones */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .btn-custom:hover {
+        background-color: #816149;
+        color: white;
+        transform: scale(1.05);
+    }
+
+/* Estilos de los botones en el carrusel */
+.text-center a {
+    padding: 12px 25px;
+    background-color: #D7A37B; /* Color del botón en la galería */
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .text-center a:hover {
+        background-color: #816149;
+        color: white;
+        transform: scale(1.05);
+    }
+
+/* Estilo de los botones con borde */
+.btn-outline-secondary-custom {
+    border-radius: 20px;
+    border: 2px solid #5A5A5A;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+    .btn-outline-secondary-custom:hover {
+        background-color: #a67b5b;
+        color: white;
+    }
+
+/* Botón de confirmación */
+.btn-confirm-custom {
+    background-color: #d1a054;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+    .btn-confirm-custom:hover {
+        background-color: #b58b3e;
+        color: white;
+    }
+
+/* Espaciado y márgenes */
+main {
+    margin-top: 50px;
+}
+/* Estilo del footer */
+footer {
+    background-color: #D7A37B; /* Color de fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+    footer p {
+        color: #5A5A5A; /* Color del texto */
+        font-size: 0.9rem;
+    }
