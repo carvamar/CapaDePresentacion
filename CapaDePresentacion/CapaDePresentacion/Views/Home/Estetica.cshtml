@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/spa.css">
+</head>
+
+<body>
+    <main role="main" class="container mt-4">
+        <!-- Filtro de Búsqueda -->
+        <section id="filtro-busqueda" class="mb-4">
+            <h2>Buscar Servicios Estéticos</h2>
+            <form id="filtro-form" class="d-flex">
+                <select class="form-select me-2" id="categoria" name="categoria">
+                    <option value="">Seleccionar Categoría</option>
+                    <option value="faciales">Tratamientos Faciales</option>
+                    <option value="botox">Botox</option>
+                </select>
+                <select class="form-select me-2" id="tipo" name="tipo">
+                    <option value="">Seleccionar Tipo</option>
+                    <option value="antiaging">Antienvejecimiento</option>
+                    <option value="hidratante">Hidratante</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </form>
+        </section>
+
+        <!-- Listado de Servicios -->
+        <section id="servicios">
+            <h2>Servicios Disponibles</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-arina-krasnikova-6663365.jpg" class="card-img-top" alt="Tratamiento Facial Hidratante">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamiento Facial Hidratante</h5>
+                            <p class="card-text">Revitaliza tu piel con un tratamiento hidratante para una apariencia fresca y saludable.</p>
+                            <a href="@Url.Action("DetalleFacial", "Home")" class="btn btn-primary">Ver Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-cottonbro-7581584.jpg" class="card-img-top" alt="Tratamiento Botox">
+                        <div class="card-body">
+                            <h5 class="card-title">Botox Rejuvenecedor</h5>
+                            <p class="card-text">Elimina las arrugas y líneas finas con nuestro tratamiento de botox avanzado.</p>
+                            <a href="@Url.Action("DetalleBotox", "Home")" class="btn btn-primary">Ver Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-kerimeveyik-16032366.jpg" class="card-img-top" alt="Tratamiento Depilacion Laser">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamiento Depilacion Laser</h5>
+                            <p class="card-text">Dile adiós para siempre a tus vellos no deseados </p>
+                            <a href="@Url.Action("DetalleDepilacion", "Home")" class="btn btn-primary">Ver Detalle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de Imágenes -->
+        <section id="galeria" class="mt-5">
+            <h2>Galería de Servicios Estéticos</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/images/pexels-babydov-7789614.jpg" alt="Ambiente Estético" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/pexels-arina-krasnikova-6663365.jpg" alt="Tratamiento Facial" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/pexels-kerimeveyik-16032366.jpg" alt="Depilación Laser" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src=" /images/pexels-cottonbro-7581584.jpg" alt="Botox Estético" class="img-fluid mb-3">
+                </div>
+                <div class="text-center mt-4">
+                    <a href="@Url.Action("VerGaleriaEstetica", "Home")" class="btn btn-primary">Ver la Galería Completa</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Todos los derechos reservados | GP Enfermería Estética y Spa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+

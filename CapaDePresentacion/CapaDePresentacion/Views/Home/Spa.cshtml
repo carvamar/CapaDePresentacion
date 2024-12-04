@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/spa.css">
+</head>
+
+<body>
+    
+    <!-- Main Content -->
+    <main role="main" class="container mt-4">
+        <!-- Filtro de Búsqueda -->
+        <section id="filtro-busqueda" class="mb-4">
+            <h2>Buscar Servicios</h2>
+            <form id="filtro-form" class="d-flex">
+                <select class="form-select me-2" id="categoria" name="categoria">
+                    <option value="">Seleccionar Categoría</option>
+                    <option value="masajes">Masajes</option>
+                    <option value="baños">Baños de vapor</option>
+                    <option value="paquetes">Paquetes especiales</option>
+                </select>
+                <select class="form-select me-2" id="tipo" name="tipo">
+                    <option value="">Seleccionar Tipo</option>
+                    <option value="relajante">Relajante</option>
+                    <option value="rejuvenecedor">Rejuvenecedor</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </form>
+        </section>
+
+        <!-- Listado de Servicios -->
+        <section id="servicios">
+            <h2>Servicios Disponibles</h2>
+            <div class="row">
+                <!-- Ejemplo de un servicio -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-pixabay-275768.jpg" class="card-img-top" alt="Servicio de Masaje">
+                        <div class="card-body">
+                            <h5 class="card-title">Masajes Relajantes</h5>
+                            <p class="card-text">Disfruta de un masaje relajante para aliviar el estrés y recuperar tu bienestar.</p>
+                           <a href="@Url.Action("DetalleSpa1", "Home")" class="btn btn-primary">Ver Detalle</a>
+
+
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-chris-f-38966-1582457.jpg" class="card-img-top" alt="Baños de Vapor">
+                        <div class="card-body">
+                            <h5 class="card-title">Baños de Vapor</h5>
+                            <p class="card-text">Relájate en nuestros baños de vapor para limpiar tu piel y rejuvenecer.</p>
+                            <a href="@Url.Action("DetalleSpa2", "Home")" class="btn btn-primary">Ver Detalle</a>
+                
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/pexels-olly-3767403.jpg" class="card-img-top" alt="Paquete de Spa">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete Relax para Parejas</h5>
+                            <p class="card-text">Disfruta de un paquete completo de spa para compartir con esa persona especial.</p>
+                            <a href="@Url.Action("DetalleSpa3", "Home")" class="btn btn-primary">Ver Detalle</a>
+                           
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de Imágenes -->
+        <section id="galeria" class="mt-5">
+            <h2>Galería de Servicios</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/images/pexels-tugba-ozturk-368300535-19572633.jpg" alt="Ambiente del Spa" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/pexels-pixabay-275768.jpg" alt="Área de Relax" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/pexels-olly-3767403.jpg" alt="Relax con tu pareja" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/pexels-olly-3757942.jpg" alt="Masajes Relajantes" class="img-fluid mb-3">
+                </div>
+                <div class="text-center mt-4">
+                    <a href="@Url.Action("VerGaleriaSpa", "Home")" class="btn btn-primary">Ver la Galería Completa</a>
+                </div>
+        </section>
+      
+
+            <!-- Sección de Paquetes Especiales -->
+            <section id="paquetes" class="mt-5">
+                <h2>Paquetes Especiales</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/images/pexels-olly-3767403.jpg" class="card-img-top" alt="Paquete para Parejas">
+                            <div class="card-body">
+                                <h5 class="card-title">Paquete Relax para Parejas</h5>
+                                <p class="card-text">Escoge una experiencia especial para compartir con tu ser querido.</p>
+                                <button class="btn btn-custom" data-package="1">Seleccionar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/images/pexels-arina-krasnikova-6663361.jpg" class="card-img-top" alt="Paquete Facial">
+                            <div class="card-body">
+                                <h5 class="card-title">Paquete Facial y Relax</h5>
+                                <p class="card-text">Un paquete exclusivo que combina tratamiento facial y masajes relajantes.</p>
+                                <button class="btn btn-custom" data-package="2">Seleccionar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/images/pexels-roman-odintsov-7691105.jpg" class="card-img-top" alt="Paquete Detox">
+                            <div class="card-body">
+                                <h5 class="card-title">Paquete Detox Total</h5>
+                                <p class="card-text">Desintoxica tu cuerpo con masajes y terapias especiales.</p>
+                                <button class="btn btn-custom" data-package="3">Seleccionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+  
+                <button class="btn btn-custom mt-3" onclick="document.getElementById('comparacion').style.display = 'block';">Ver Comparativa de Paquetes</button>
+
+                <!-- Tabla de Comparativa de Paquetes -->
+                <div id="comparacion" class="mt-5" style="display: none;">
+                    <h3>Comparar Paquetes</h3>
+                    <table class="table table-bordered" id="tabla-comparacion">
+                        <thead>
+                            <tr>
+                                <th>Paquete</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Paquete Relax para Parejas</td>
+                                <td>Escoge una experiencia especial para compartir con tu ser querido.</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td>Paquete Facial y Relax</td>
+                                <td>Un paquete exclusivo que combina tratamiento facial y masajes relajantes.</td>
+                                <td>$120</td>
+                            </tr>
+                            <tr>
+                                <td>Paquete Detox Total</td>
+                                <td>Desintoxica tu cuerpo con masajes y terapias especiales.</td>
+                                <td>$180</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Todos los derechos reservados | GP Enfermería Estética y Spa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
