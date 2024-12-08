@@ -32,6 +32,7 @@ namespace CapaDePresentacion.Controllers
 		{
 			return View();
 		}
+
         public IActionResult Spa()
         {
             return View();
@@ -71,6 +72,7 @@ namespace CapaDePresentacion.Controllers
          public IActionResult DetalleDepilacion()
          {
              return View();
+
          }
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
