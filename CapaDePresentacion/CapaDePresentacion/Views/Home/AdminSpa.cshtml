@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Servicios - Spa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="admin">
+    <header class="py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">Administrar Servicios</h1>
+            <a href="@Url.Action("Spa", "Home")" class="btn btn-outline-secondary-custom">Regresar</a>
+        </div>
+    </header>
+
+    <main role="main" class="container mt-4">
+        <!-- Botón para agregar un nuevo servicio -->
+        <section id="agregar-servicio" class="mb-4 text-end">
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#agregarServicioModal">Agregar Nuevo Servicio</a>
+        </section>
+
+
+        <section id="listar-servicios">
+   <h2>Servicios</h2>
+   <div class="d-flex flex-wrap">
+       <!-- Ejemplo de un servicio existente -->
+       <div class="col-md-4 mb-4">
+           <div class="card">
+               <img src="/images/pexels-pixabay-275768.jpg" class="card-img-top" alt="Servicio de Masaje">
+               <div class="card-body">
+                   <h5 class="card-title">Masajes Relajantes</h5>
+                   <p class="card-text">Duración: 60 minutos<br>Costo: $150</p>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#verServicioModal">Ver</a>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#editarServicioModal">Editar</a>
+                   <button class="btn btn-custom btn-sm">Eliminar</button>
+               </div>
+           </div>
+       </div>
+
+       <div class="col-md-4 mb-4">
+           <div class="card">
+               <img src="/images/pexels-chris-f-38966-1582457.jpg" class="card-img-top" alt="Baños de Vapor">
+               <div class="card-body">
+                   <h5 class="card-title">Baños de Vapor</h5>
+                   <p class="card-text">Duración: 60 minutos<br>Costo: $150</p>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#verServicioModal">Ver</a>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#editarServicioModal">Editar</a>
+                   <button class="btn btn-custom btn-sm">Eliminar</button>
+               </div>
+           </div>
+       </div>
+
+       <div class="col-md-4 mb-4">
+           <div class="card">
+               <img src="/images/pexels-olly-3767403.jpg" class="card-img-top" alt="Paquete de Spa">
+               <div class="card-body">
+                   <h5 class="card-title">Paquete Relax para parejas</h5>
+                   <p class="card-text">Duración: 60 minutos<br>Costo: $200</p>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#verServicioModal">Ver</a>
+                   <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#editarServicioModal">Editar</a>
+                   <button class="btn btn-custom btn-sm">Eliminar</button>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+ <section id="agregar-servicio" class="mb-4 text-end">
+           <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#agregarPaqueteModal">Agregar Nuevo Paquete Especial</a>
+        </section>
+    <!-- Listar Paquetes Especiales -->
+        <section id="listar-paquetes">
+            <h2>Paquetes Especiales</h2>
+            <div class="d-flex flex-wrap">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/images/pexels-pixabay-275768.jpg" class="card-img-top" alt="Paquete Relax">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete Relax para dos</h5>
+                            <p class="card-text">Duración: 120 minutos<br>Costo: $300</p>
+                            <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#verPaqueteModal">Ver</a>
+                            <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#editarPaqueteModal">Editar</a>
+                            <button class="btn btn-custom btn-sm">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/images/pexels-chris-f-38966-1582457.jpg" class="card-img-top" alt="Paquete De Lujo">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete De Lujo</h5>
+                            <p class="card-text">Duración: 150 minutos<br>Costo: $400</p>
+                            <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#verPaqueteModal">Ver</a>
+                            <a href="#" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#editarPaqueteModal">Editar</a>
+                            <button class="btn btn-custom btn-sm">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para agregar servicio -->
+    <div class="modal fade" id="agregarServicioModal" tabindex="-1" aria-labelledby="agregarServicioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarServicioModalLabel">Agregar Nuevo Servicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre-servicio" class="form-label">Nombre del Servicio</label>
+                            <input type="text" class="form-control" id="nombre-servicio" placeholder="Ej. Masaje Relajante">
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion-servicio" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="descripcion-servicio" rows="3" placeholder="Descripción del servicio"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="imagenes-servicio" class="form-label">Imágenes</label>
+                            <input type="file" class="form-control" id="imagenes-servicio" multiple>
+                        </div>
+                        <div class="mb-3">
+                            <label for="duracion-servicio" class="form-label">Duración (minutos)</label>
+                            <input type="number" class="form-control" id="duracion-servicio" placeholder="Ej. 60">
+                        </div>
+                        <div class="mb-3">
+                            <label for="costo-servicio" class="form-label">Costo</label>
+                            <input type="number" class="form-control" id="costo-servicio" placeholder="Ej. 150">
+                        </div>
+                        <button type="submit" class="btn btn-custom">Agregar Servicio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para agregar paquete especial -->
+    <div class="modal fade" id="agregarPaqueteModal" tabindex="-1" aria-labelledby="agregarPaqueteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarPaqueteModalLabel">Agregar Nuevo Paquete Especial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre-paquete" class="form-label">Nombre del Paquete</label>
+                            <input type="text" class="form-control" id="nombre-paquete" placeholder="Ej. Paquete Relax Completo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion-paquete" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="descripcion-paquete" rows="3" placeholder="Descripción del paquete"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="duracion-paquete" class="form-label">Duración (minutos)</label>
+                            <input type="number" class="form-control" id="duracion-paquete" placeholder="Ej. 120">
+                        </div>
+                        <div class="mb-3">
+                            <label for="costo-paquete" class="form-label">Costo</label>
+                            <input type="number" class="form-control" id="costo-paquete" placeholder="Ej. 250">
+                        </div>
+                        <button type="submit" class="btn btn-custom">Agregar Paquete Especial</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para editar servicio -->
+    <div class="modal fade" id="editarServicioModal" tabindex="-1" aria-labelledby="editarServicioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarServicioModalLabel">Editar Servicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="editar-nombre-servicio" class="form-label">Nombre del Servicio</label>
+                            <input type="text" class="form-control" id="editar-nombre-servicio" value="Masajes Relajantes">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-descripcion-servicio" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="editar-descripcion-servicio" rows="3">Descripción actual del servicio</textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-imagenes-servicio" class="form-label">Imágenes</label>
+                            <input type="file" class="form-control" id="editar-imagenes-servicio" multiple>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-duracion-servicio" class="form-label">Duración (minutos)</label>
+                            <input type="number" class="form-control" id="editar-duracion-servicio" value="60">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-costo-servicio" class="form-label">Costo</label>
+                            <input type="number" class="form-control" id="editar-costo-servicio" value="150">
+                        </div>
+                        <button type="submit" class="btn btn-custom">Guardar Cambios</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para editar paquete especial -->
+    <div class="modal fade" id="editarPaqueteModal" tabindex="-1" aria-labelledby="editarPaqueteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarPaqueteModalLabel">Editar Paquete Especial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="editar-nombre-paquete" class="form-label">Nombre del Paquete</label>
+                            <input type="text" class="form-control" id="editar-nombre-paquete" value="Paquete Relax Completo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-descripcion-paquete" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="editar-descripcion-paquete" rows="3">Descripción actual del paquete</textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-duracion-paquete" class="form-label">Duración (minutos)</label>
+                            <input type="number" class="form-control" id="editar-duracion-paquete" value="120">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editar-costo-paquete" class="form-label">Costo</label>
+                            <input type="number" class="form-control" id="editar-costo-paquete" value="250">
+                        </div>
+                        <button type="submit" class="btn btn-custom">Guardar Cambios</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

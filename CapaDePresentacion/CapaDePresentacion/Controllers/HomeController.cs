@@ -35,6 +35,14 @@ namespace CapaDePresentacion.Controllers
          public IActionResult Spa()
          {
          return View();
+         public IActionResult AdminSpa()
+         {
+            return View();
+            }
+               public IActionResult AdminEstetica()
+               {
+                return View();
+                }
          public IActionResult DetalleSpa1()
          {
          return View();
