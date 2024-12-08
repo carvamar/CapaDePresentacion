@@ -1,0 +1,144 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GP Enfermería Estética Y Spa</title>
+    <link rel="icon" href="/images/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/StyleSheet.css">
+
+</head>
+<body>
+    <header>
+        <!-- Upper Navigation Bar -->
+        <nav class="navbar upper-nav py-1">
+            <div class="container-fluid justify-content-end">
+                <a href="/Home/IniciarSesion" class="nav-link">                 
+                </a>
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        USD
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">USD</a></li>
+                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                        <li><a class="dropdown-item" href="#">GBP</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Español
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Español</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Français</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        @* Main Navigation Bar *@
+        <nav class="navbar navbar-expand-lg navbar-main">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="/Home/Index">
+                    <img src="/images/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+                    | GP Enfermería Estética Y Spa
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Spa">Spa</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Estetica">Estética</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/GestionEmpleados">Gestion Empleados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/GestionUsuarios">Gestion Usuarios</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" href="#">Afiliados</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Cita">Cita</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a class="nav-link" asp-controller="Home" asp-action="Perfil">Perfil</a>
+                        </li>
+                        <li class="nav-item ms-1 me-5">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row mb-5 footer-section">
+
+                <div class="col-md-3">
+                    <div class="mb-5">
+                        <h2 style=" font-weight: 600;">Sobre nosotros</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas massa ut tellus efficitur semper.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mb-5">
+                        <h2 style=" font-weight: 600;">Enlace rápido</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Sobre nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="mb-5">
+                        <h2 style=" font-weight: 600;">Ponte en contacto</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fas fa-map-marker-alt"></span><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
+                                <li><a href="#"><span class="icon fas fa-phone"></span><span class="text">+506 6787-5893</span></a></li>
+                                <li><a href="#"><span class="icon fas fa-envelope"></span><span class="text">GP@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/50667875893" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div style="border-top: 1px solid #5a5a5a; margin-bottom: 20px;"></div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Todos los derechos reservados | GP Enfermería Estética y Spa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

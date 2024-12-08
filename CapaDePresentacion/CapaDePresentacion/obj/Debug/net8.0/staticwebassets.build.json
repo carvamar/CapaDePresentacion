@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c+LVzNEo8d3XDI1+Xbd1QSAEJJ+BDuI5Lh56nWfpNWg=",
+  "Hash": "aECNyiAjWFKjA59Sp6xJhVnvUM4yGIawP987RgtO6pw=",
   "Source": "CapaDePresentacion",
   "BasePath": "_content/CapaDePresentacion",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fd9dk2syoq",
-      "Integrity": "TXPmXY3KbUCGlo0nKP6GeEvNWpOrVX3pBK+Mi9K5QvY=",
+      "Fingerprint": "xo0arz5u5i",
+      "Integrity": "/6YsJSVzfOjgKw41sAcLD8GTM5msrvsis0vLluuCTUQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\spa.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0xc9v9dpaf",
-      "Integrity": "pPyeyhwwXEQs4No28+H+i96hLvUHhX+yhLp7VeGzUAo=",
+      "Fingerprint": "p52jtky58k",
+      "Integrity": "rf64gKNSUBVE+vLxiVOKqsptO2v901/jPuhlH7+hv70=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\OIP.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\PerfilPtes.jpg",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "images/PerfilPtes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3v06oetlus",
+      "Integrity": "32neivLpjPQNgjMULOnYOtCommA4w6pmoKPTCIJDmjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\PerfilPtes.jpg"
     },
     {
       "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_1.jpg",
@@ -666,6 +687,195 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\staff.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\AccesoUsuarios.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/AccesoUsuarios#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "thfbjmsxq3",
+      "Integrity": "MS4LGHEzIvAlVXF6pprDKuuqsbRKeUnXq+MGORY2Sk4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AccesoUsuarios.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\CrearCuenta.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/CrearCuenta#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nvwf86bz9y",
+      "Integrity": "zVue6cLvd8XDkJiMk0CCc5K/Yua4dAVXGOM+XWld0e0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\CrearCuenta.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\EditarDesactivarEliminar.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/EditarDesactivarEliminar#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "52yr0acack",
+      "Integrity": "03IC+rOVEOi1TB28d3tHKZdQIGd+JDeHu02w2FzJ9Co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\EditarDesactivarEliminar.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\GestionEmpleado.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/GestionEmpleado#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9n35v4d8tv",
+      "Integrity": "S39IQOe3HE3L/u2RsGlagcNSq5CCEuC7iKQxwVpLYJo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\GestionEmpleado.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Horarios.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/Horarios#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3a0xc4go11",
+      "Integrity": "q5thm9Hbxr4xg+o8f9WEpLfAvvT3NMPfXKc5Lpjm9R8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Horarios.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\PerfilUsuario.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/PerfilUsuario#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xfy2uohbdn",
+      "Integrity": "I9eHT/MBdcqxhZiXNQxUvLXExxv5ygEaLzqTU0xPAtY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\PerfilUsuario.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Registro.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/Registro#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xg96e8gxpv",
+      "Integrity": "caMMTSvcbGE9gkRDIYZmAAw31Wgasn144XxAGy4CHmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Registro.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\ReportesSatisfaccion.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/ReportesSatisfaccion#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "19j2iakbef",
+      "Integrity": "C3jCfdq2tYrZtzsU8iSfrds98PsmI8Fw5WOokq/Y1Ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ReportesSatisfaccion.js"
+    },
+    {
+      "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\RolesPermisos.js",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "js/RolesPermisos#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n1pcayzesc",
+      "Integrity": "NTRKe7r6ye/ei5ZMrg1AcTroDRekIkaFG4S/r/vG1ZA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\RolesPermisos.js"
     },
     {
       "Identity": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2123,7 +2333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3858"
+          "Value": "3862"
         },
         {
           "Name": "Content-Type",
@@ -2131,11 +2341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TXPmXY3KbUCGlo0nKP6GeEvNWpOrVX3pBK+Mi9K5QvY=\""
+          "Value": "\"/6YsJSVzfOjgKw41sAcLD8GTM5msrvsis0vLluuCTUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 21:09:56 GMT"
+          "Value": "Sun, 08 Dec 2024 10:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2145,12 +2355,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TXPmXY3KbUCGlo0nKP6GeEvNWpOrVX3pBK+Mi9K5QvY="
+          "Value": "sha256-/6YsJSVzfOjgKw41sAcLD8GTM5msrvsis0vLluuCTUQ="
         }
       ]
     },
     {
-      "Route": "css/spa.fd9dk2syoq.css",
+      "Route": "css/spa.xo0arz5u5i.css",
       "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\spa.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2160,7 +2370,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3858"
+          "Value": "3862"
         },
         {
           "Name": "Content-Type",
@@ -2168,11 +2378,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TXPmXY3KbUCGlo0nKP6GeEvNWpOrVX3pBK+Mi9K5QvY=\""
+          "Value": "\"/6YsJSVzfOjgKw41sAcLD8GTM5msrvsis0vLluuCTUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 21:09:56 GMT"
+          "Value": "Sun, 08 Dec 2024 10:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2182,7 +2392,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fd9dk2syoq"
+          "Value": "xo0arz5u5i"
         },
         {
           "Name": "label",
@@ -2190,52 +2400,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TXPmXY3KbUCGlo0nKP6GeEvNWpOrVX3pBK+Mi9K5QvY="
-        }
-      ]
-    },
-    {
-      "Route": "css/StyleSheet.0xc9v9dpaf.css",
-      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5700"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pPyeyhwwXEQs4No28+H+i96hLvUHhX+yhLp7VeGzUAo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 21:09:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0xc9v9dpaf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/StyleSheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pPyeyhwwXEQs4No28+H+i96hLvUHhX+yhLp7VeGzUAo="
+          "Value": "sha256-/6YsJSVzfOjgKw41sAcLD8GTM5msrvsis0vLluuCTUQ="
         }
       ]
     },
@@ -2250,7 +2415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5700"
+          "Value": "6502"
         },
         {
           "Name": "Content-Type",
@@ -2258,11 +2423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pPyeyhwwXEQs4No28+H+i96hLvUHhX+yhLp7VeGzUAo=\""
+          "Value": "\"rf64gKNSUBVE+vLxiVOKqsptO2v901/jPuhlH7+hv70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 21:09:56 GMT"
+          "Value": "Sun, 08 Dec 2024 11:07:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2272,7 +2437,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pPyeyhwwXEQs4No28+H+i96hLvUHhX+yhLp7VeGzUAo="
+          "Value": "sha256-rf64gKNSUBVE+vLxiVOKqsptO2v901/jPuhlH7+hv70="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleSheet.p52jtky58k.css",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rf64gKNSUBVE+vLxiVOKqsptO2v901/jPuhlH7+hv70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 11:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p52jtky58k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rf64gKNSUBVE+vLxiVOKqsptO2v901/jPuhlH7+hv70="
         }
       ]
     },
@@ -2929,6 +3139,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SjQOSYm1e+wHC62jreK547KiKehDY4e9cKiK18vjr14="
+        }
+      ]
+    },
+    {
+      "Route": "images/PerfilPtes.3v06oetlus.jpg",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\PerfilPtes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"32neivLpjPQNgjMULOnYOtCommA4w6pmoKPTCIJDmjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 05:36:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3v06oetlus"
+        },
+        {
+          "Name": "label",
+          "Value": "images/PerfilPtes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-32neivLpjPQNgjMULOnYOtCommA4w6pmoKPTCIJDmjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/PerfilPtes.jpg",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\PerfilPtes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"32neivLpjPQNgjMULOnYOtCommA4w6pmoKPTCIJDmjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 05:36:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-32neivLpjPQNgjMULOnYOtCommA4w6pmoKPTCIJDmjw="
         }
       ]
     },
@@ -4405,6 +4697,744 @@
         {
           "Name": "integrity",
           "Value": "sha256-iKQAAUaGffM7At+KuJttezrlT3CIw6Vu8d/UpDOlE8k="
+        }
+      ]
+    },
+    {
+      "Route": "js/AccesoUsuarios.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\AccesoUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MS4LGHEzIvAlVXF6pprDKuuqsbRKeUnXq+MGORY2Sk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 07:20:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MS4LGHEzIvAlVXF6pprDKuuqsbRKeUnXq+MGORY2Sk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/AccesoUsuarios.thfbjmsxq3.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\AccesoUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MS4LGHEzIvAlVXF6pprDKuuqsbRKeUnXq+MGORY2Sk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 07:20:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "thfbjmsxq3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/AccesoUsuarios.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MS4LGHEzIvAlVXF6pprDKuuqsbRKeUnXq+MGORY2Sk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/CrearCuenta.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\CrearCuenta.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVue6cLvd8XDkJiMk0CCc5K/Yua4dAVXGOM+XWld0e0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 07:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVue6cLvd8XDkJiMk0CCc5K/Yua4dAVXGOM+XWld0e0="
+        }
+      ]
+    },
+    {
+      "Route": "js/CrearCuenta.nvwf86bz9y.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\CrearCuenta.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVue6cLvd8XDkJiMk0CCc5K/Yua4dAVXGOM+XWld0e0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 07:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nvwf86bz9y"
+        },
+        {
+          "Name": "label",
+          "Value": "js/CrearCuenta.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVue6cLvd8XDkJiMk0CCc5K/Yua4dAVXGOM+XWld0e0="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditarDesactivarEliminar.52yr0acack.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\EditarDesactivarEliminar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03IC+rOVEOi1TB28d3tHKZdQIGd+JDeHu02w2FzJ9Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 08:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52yr0acack"
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditarDesactivarEliminar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-03IC+rOVEOi1TB28d3tHKZdQIGd+JDeHu02w2FzJ9Co="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditarDesactivarEliminar.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\EditarDesactivarEliminar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03IC+rOVEOi1TB28d3tHKZdQIGd+JDeHu02w2FzJ9Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 08:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-03IC+rOVEOi1TB28d3tHKZdQIGd+JDeHu02w2FzJ9Co="
+        }
+      ]
+    },
+    {
+      "Route": "js/GestionEmpleado.9n35v4d8tv.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\GestionEmpleado.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S39IQOe3HE3L/u2RsGlagcNSq5CCEuC7iKQxwVpLYJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9n35v4d8tv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/GestionEmpleado.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S39IQOe3HE3L/u2RsGlagcNSq5CCEuC7iKQxwVpLYJo="
+        }
+      ]
+    },
+    {
+      "Route": "js/GestionEmpleado.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\GestionEmpleado.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S39IQOe3HE3L/u2RsGlagcNSq5CCEuC7iKQxwVpLYJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S39IQOe3HE3L/u2RsGlagcNSq5CCEuC7iKQxwVpLYJo="
+        }
+      ]
+    },
+    {
+      "Route": "js/Horarios.3a0xc4go11.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Horarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5thm9Hbxr4xg+o8f9WEpLfAvvT3NMPfXKc5Lpjm9R8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 21:24:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3a0xc4go11"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Horarios.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5thm9Hbxr4xg+o8f9WEpLfAvvT3NMPfXKc5Lpjm9R8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Horarios.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Horarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5thm9Hbxr4xg+o8f9WEpLfAvvT3NMPfXKc5Lpjm9R8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 21:24:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5thm9Hbxr4xg+o8f9WEpLfAvvT3NMPfXKc5Lpjm9R8="
+        }
+      ]
+    },
+    {
+      "Route": "js/PerfilUsuario.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\PerfilUsuario.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9eHT/MBdcqxhZiXNQxUvLXExxv5ygEaLzqTU0xPAtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 06:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9eHT/MBdcqxhZiXNQxUvLXExxv5ygEaLzqTU0xPAtY="
+        }
+      ]
+    },
+    {
+      "Route": "js/PerfilUsuario.xfy2uohbdn.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\PerfilUsuario.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9eHT/MBdcqxhZiXNQxUvLXExxv5ygEaLzqTU0xPAtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 06:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfy2uohbdn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/PerfilUsuario.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9eHT/MBdcqxhZiXNQxUvLXExxv5ygEaLzqTU0xPAtY="
+        }
+      ]
+    },
+    {
+      "Route": "js/Registro.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Registro.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"caMMTSvcbGE9gkRDIYZmAAw31Wgasn144XxAGy4CHmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 01:24:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-caMMTSvcbGE9gkRDIYZmAAw31Wgasn144XxAGy4CHmE="
+        }
+      ]
+    },
+    {
+      "Route": "js/Registro.xg96e8gxpv.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Registro.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"caMMTSvcbGE9gkRDIYZmAAw31Wgasn144XxAGy4CHmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 01:24:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xg96e8gxpv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Registro.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-caMMTSvcbGE9gkRDIYZmAAw31Wgasn144XxAGy4CHmE="
+        }
+      ]
+    },
+    {
+      "Route": "js/ReportesSatisfaccion.19j2iakbef.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\ReportesSatisfaccion.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3jCfdq2tYrZtzsU8iSfrds98PsmI8Fw5WOokq/Y1Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 22:53:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "19j2iakbef"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ReportesSatisfaccion.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3jCfdq2tYrZtzsU8iSfrds98PsmI8Fw5WOokq/Y1Ek="
+        }
+      ]
+    },
+    {
+      "Route": "js/ReportesSatisfaccion.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\ReportesSatisfaccion.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3jCfdq2tYrZtzsU8iSfrds98PsmI8Fw5WOokq/Y1Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 22:53:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3jCfdq2tYrZtzsU8iSfrds98PsmI8Fw5WOokq/Y1Ek="
+        }
+      ]
+    },
+    {
+      "Route": "js/RolesPermisos.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\RolesPermisos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTRKe7r6ye/ei5ZMrg1AcTroDRekIkaFG4S/r/vG1ZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 22:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTRKe7r6ye/ei5ZMrg1AcTroDRekIkaFG4S/r/vG1ZA="
+        }
+      ]
+    },
+    {
+      "Route": "js/RolesPermisos.n1pcayzesc.js",
+      "AssetFile": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\RolesPermisos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTRKe7r6ye/ei5ZMrg1AcTroDRekIkaFG4S/r/vG1ZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 22:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n1pcayzesc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/RolesPermisos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTRKe7r6ye/ei5ZMrg1AcTroDRekIkaFG4S/r/vG1ZA="
         }
       ]
     },

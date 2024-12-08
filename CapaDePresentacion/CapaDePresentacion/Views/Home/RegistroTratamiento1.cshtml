@@ -1,0 +1,142 @@
+﻿@page
+@model CapaDePresentacion.Views.Home.RegistroTratamiento1Model
+@{
+    Layout = "~/Views/Shared/_LayoutRegistroTratamiento.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/StyleSheet.css">
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link active" id="nav-home-tab" role="tab" aria-controls="nav-home" aria-selected="false">Roles y Permisos</a>
+            <a class="nav-link" id="nav-profile-tab" href="/Home/RegistroTratamiento1" role="tab" aria-controls="nav-profile" aria-selected="false">Gestion de Tratamientos</a>
+        </div>
+    </nav>
+    @* Pestañas menu *@
+
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <!-- Contenido de Perfil pacientes (negrita letras) (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <!-- Contenido de VerInfoPte (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Historial (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-horariopaciente" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Horario (pestañas) -->
+        </div>
+    </div>
+
+    <div class="container mt-5">
+  <h1 class="text-center mb-4">Gestión de Tratamientos</h1>
+
+  <!-- Navegación con pestañas -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="registro-tab" data-bs-toggle="tab" data-bs-target="#registro" type="button" role="tab" aria-controls="registro" aria-selected="true">
+        Registrar Tratamiento
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="actualizacion-tab" data-bs-toggle="tab" data-bs-target="#actualizacion" type="button" role="tab" aria-controls="actualizacion" aria-selected="false">
+        Actualizar Tratamiento
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="consulta-tab" data-bs-toggle="tab" data-bs-target="#consulta" type="button" role="tab" aria-controls="consulta" aria-selected="false">
+        Consultar Historial
+      </button>
+    </li>
+  </ul>
+
+  <!-- Contenido de las pestañas -->
+  <div class="tab-content mt-3" id="myTabContent">
+    <!-- Registrar Tratamiento -->
+    <div class="tab-pane fade show active" id="registro" role="tabpanel" aria-labelledby="registro-tab">
+      <form>
+        <div class="mb-3">
+          <label for="cliente" class="form-label">Cliente</label>
+          <input type="text" class="form-control" id="cliente" placeholder="Nombre del cliente">
+        </div>
+        <div class="mb-3">
+          <label for="tratamiento" class="form-label">Tratamiento</label>
+          <textarea class="form-control" id="tratamiento" rows="3" placeholder="Descripción del tratamiento"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar</button>
+      </form>
+    </div>
+
+    <!-- Actualizar Tratamiento -->
+    <div class="tab-pane fade" id="actualizacion" role="tabpanel" aria-labelledby="actualizacion-tab">
+      <form>
+        <div class="mb-3">
+          <label for="buscarCliente" class="form-label">Buscar Cliente</label>
+          <input type="text" class="form-control" id="buscarCliente" placeholder="Nombre del cliente o ID">
+        </div>
+        <div class="mb-3">
+          <label for="nuevaInfo" class="form-label">Actualizar Información</label>
+          <textarea class="form-control" id="nuevaInfo" rows="3" placeholder="Nueva información del tratamiento"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Actualizar</button>
+      </form>
+    </div>
+
+    <!-- Consultar Historial -->
+    <div class="tab-pane fade" id="consulta" role="tabpanel" aria-labelledby="consulta-tab">
+      <form>
+        <div class="mb-3">
+          <label for="historialCliente" class="form-label">Buscar Cliente</label>
+          <input type="text" class="form-control" id="historialCliente" placeholder="Nombre del cliente o ID">
+        </div>
+        <button type="button" class="btn btn-info">Consultar Historial</button>
+      </form>
+      <!-- Historial -->
+      <div class="mt-4">
+        <h5>Historial del Cliente</h5>
+        <ul class="list-group">
+          <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#detalleModal">Tratamiento 1 - Fecha: 01/01/2024</li>
+          <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#detalleModal">Tratamiento 2 - Fecha: 05/02/2024</li>
+          <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#detalleModal">Tratamiento 3 - Fecha: 10/03/2024</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para detalles del tratamiento -->
+<div class="modal fade" id="detalleModal" tabindex="-1" aria-labelledby="detalleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="detalleModalLabel">Detalles del Tratamiento</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Cliente:</strong> Nombre del cliente</p>
+        <p><strong>Tratamiento:</strong> Descripción detallada del tratamiento.</p>
+        <p><strong>Fecha:</strong> Fecha del tratamiento.</p>
+        <p><strong>Notas:</strong> Notas adicionales sobre el tratamiento.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>     
+    <br>
+    <br>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    @* Importante ver *@
+    <script src="~/js/RegistroTratamiento.js"></script>
+</body>
+</html>

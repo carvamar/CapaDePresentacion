@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\OIP.jpg"
     },
     {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\PerfilPtes.jpg",
+      "PackagePath": "staticwebassets\\images\\PerfilPtes.jpg"
+    },
+    {
       "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\R.jpg",
       "PackagePath": "staticwebassets\\images\\R.jpg"
     },
@@ -119,6 +123,42 @@
     {
       "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\staff.jpg",
       "PackagePath": "staticwebassets\\images\\staff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\AccesoUsuarios.js",
+      "PackagePath": "staticwebassets\\js\\AccesoUsuarios.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\CrearCuenta.js",
+      "PackagePath": "staticwebassets\\js\\CrearCuenta.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\EditarDesactivarEliminar.js",
+      "PackagePath": "staticwebassets\\js\\EditarDesactivarEliminar.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\GestionEmpleado.js",
+      "PackagePath": "staticwebassets\\js\\GestionEmpleado.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Horarios.js",
+      "PackagePath": "staticwebassets\\js\\Horarios.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\PerfilUsuario.js",
+      "PackagePath": "staticwebassets\\js\\PerfilUsuario.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\Registro.js",
+      "PackagePath": "staticwebassets\\js\\Registro.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\ReportesSatisfaccion.js",
+      "PackagePath": "staticwebassets\\js\\ReportesSatisfaccion.js"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\js\\RolesPermisos.js",
+      "PackagePath": "staticwebassets\\js\\RolesPermisos.js"
     },
     {
       "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\LICENSE",

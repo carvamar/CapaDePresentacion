@@ -13,10 +13,13 @@
         <!-- Upper Navigation Bar -->
         <nav class="navbar upper-nav py-1">
             <div class="container-fluid justify-content-end">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-user-circle"></i> Sign In
-                </a>
-                <div class="dropdown">
+                <span id ="texto_bienvenida"">
+                     Tu bienestar comienza aquí
+                    <a href="/Home/IniciarSesion" class="text-primary fw-bold"><i class="fas fa-user-circle"></i> Iniciar Sesión</a> o
+                    <a href="/Home/Registro" class="text-primary fw-bold">Regístrarse</a>.
+                </span>
+                <div class="ms-auto d-flex">  @* Esta clase me permite agrupar el dropdown de USD y Español a la derecha del nav bar *@
+                    <div class="dropdown me-2">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         USD
                     </a>
@@ -25,7 +28,7 @@
                         <li><a class="dropdown-item" href="#">EUR</a></li>
                     </ul>
                 </div>
-                <div class="dropdown">
+                    <div class="dropdown me-2">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         Español
                     </a>
@@ -33,6 +36,7 @@
                         <li><a class="dropdown-item" href="#">Español</a></li>
                         <li><a class="dropdown-item" href="#">English</a></li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -54,6 +58,12 @@
                   </li>
                   <li class="nav-item me-7">
                       <a class="nav-link" asp-controller="Home" asp-action="Estetica">Estética</a>
+                  </li>
+                  <li class="nav-item">
+                            <a class="nav-link" href="/Home/GestionEmpleados">Gestion Empleados</a>
+                  </li>
+                  <li class="nav-item">
+                       <a class="nav-link" href="/Home/GestionUsuarios">Gestion Usuarios</a>
                   </li>
                   <li class="nav-item me-7">
                       <a class="nav-link" href="#">Afiliados</a>

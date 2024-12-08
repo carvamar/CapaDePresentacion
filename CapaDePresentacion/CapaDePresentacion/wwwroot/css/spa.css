@@ -193,3 +193,10 @@ h2 {
 #tabla-comparacion {
     display: table;
 }
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #816149 !important;
+}
+
+
