@@ -32,42 +32,45 @@ namespace CapaDePresentacion.Controllers
 		{
 			return View();
 		}
-		     public IActionResult DetalleSpa1()
-     {
+         public IActionResult Spa()
+         {
          return View();
-     }
-     public IActionResult DetalleSpa2()
-     {
+         public IActionResult DetalleSpa1()
+         {
          return View();
-     }
-     public IActionResult DetalleSpa3()
-     {
+         }
+         public IActionResult DetalleSpa2()
+         {
          return View();
-     }
-     public IActionResult VerGaleriaSpa()
-     {
+         }
+         public IActionResult DetalleSpa3()
+         {
          return View();
-     }
-     public IActionResult Estetica()
-     {
+         }
+         public IActionResult VerGaleriaSpa()
+         {
          return View();
-     }
-     public IActionResult VerGaleriaEstetica()
-     {
+         }
+         public IActionResult Estetica()
+         {
          return View();
-     }
-     public IActionResult DetalleFacial()
-     {
+         }
+         public IActionResult VerGaleriaEstetica()
+         {
          return View();
-     }
-     public IActionResult DetalleBotox()
-     {
+         }
+         public IActionResult DetalleFacial()
+         {
          return View();
-     }
-     public IActionResult DetalleDepilacion()
-     {
+         }
+         public IActionResult DetalleBotox()
+         {
          return View();
-     }
+         }
+         public IActionResult DetalleDepilacion()
+         {
+         return View();
+         }
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
