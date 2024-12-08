@@ -1,0 +1,16 @@
+
+body {
+    color: #5A5A5A;
+    font-family: Arial, sans-serif;
+}
+
+.custom-button {
+    background-color: #D7A37B;
+    color: #fff;
+    border-color: #D7A37B;
+}
+
+    .custom-button:hover {
+        background-color: #c4411d;
+        border-color: #c4411d;
+    }

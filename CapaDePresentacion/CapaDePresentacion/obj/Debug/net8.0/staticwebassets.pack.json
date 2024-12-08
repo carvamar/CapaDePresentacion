@@ -1,292 +1,356 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapaDePresentacion.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CapaDePresentacion.bundle.scp.css"
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapaDePresentacion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CapaDePresentacion.9nlcd8gj0o.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\citas.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\VerDetalleSpa.css",
+      "PackagePath": "staticwebassets\\css\\VerDetalleSpa.css"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\citas.css",
       "PackagePath": "staticwebassets\\css\\citas.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\spa.css",
+      "PackagePath": "staticwebassets\\css\\spa.css"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\vergaleria.css",
+      "PackagePath": "staticwebassets\\css\\vergaleria.css"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\OIP.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\OIP.jpg",
       "PackagePath": "staticwebassets\\images\\OIP.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\R.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\R.jpg",
       "PackagePath": "staticwebassets\\images\\R.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\bg.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\images\\bg.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\cita.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\cita.jpg",
       "PackagePath": "staticwebassets\\images\\cita.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\estetica3.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\estetica3.jpg",
       "PackagePath": "staticwebassets\\images\\estetica3.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\logo.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\logo.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_1.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_1.jpg",
       "PackagePath": "staticwebassets\\images\\person_1.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_2.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_2.jpg",
       "PackagePath": "staticwebassets\\images\\person_2.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_3.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\person_3.jpg",
       "PackagePath": "staticwebassets\\images\\person_3.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\spa.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-arina-krasnikova-6663361.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-arina-krasnikova-6663361.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-arina-krasnikova-6663365.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-arina-krasnikova-6663365.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-babydov-7789614.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-babydov-7789614.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-chris-f-38966-1582457.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-chris-f-38966-1582457.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-cottonbro-7581584.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-cottonbro-7581584.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-karolina-grabowska-6629536.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-karolina-grabowska-6629536.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-kerimeveyik-16032366.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-kerimeveyik-16032366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-olly-3757942.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-olly-3757942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-olly-3767403.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-olly-3767403.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-pixabay-275768.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pixabay-275768.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-roman-odintsov-7691105.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-roman-odintsov-7691105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\pexels-tugba-ozturk-368300535-19572633.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-tugba-ozturk-368300535-19572633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\spa.jpg",
       "PackagePath": "staticwebassets\\images\\spa.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\staff.jpg",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\images\\staff.jpg",
       "PackagePath": "staticwebassets\\images\\staff.jpg"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CapaDePresentacion.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CapaDePresentacion.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -5566,19 +5566,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\celes\\.nuget\\packages\\": {}
+    "C:\\Users\\esteb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
       "projectName": "CapaDePresentacion",
-      "projectPath": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
-      "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celes\\Source\\Repos\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\obj\\",
+      "projectPath": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+      "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5586,7 +5591,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5604,7 +5608,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5634,7 +5639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

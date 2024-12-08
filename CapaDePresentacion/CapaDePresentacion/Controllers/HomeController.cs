@@ -28,6 +28,16 @@ namespace CapaDePresentacion.Controllers
             return View();
         }
 
+        public IActionResult Finanzas()
+        {
+            return View();
+        }
+
+        public IActionResult Clientes()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
 		{
 			return View();
@@ -35,49 +45,43 @@ namespace CapaDePresentacion.Controllers
          public IActionResult Spa()
          {
          return View();
-         public IActionResult AdminSpa()
-         {
-            return View();
-            }
-               public IActionResult AdminEstetica()
-               {
-                return View();
-                }
+         }
          public IActionResult DetalleSpa1()
          {
          return View();
-         }
+        }
          public IActionResult DetalleSpa2()
          {
-         return View();
+             return View();
          }
          public IActionResult DetalleSpa3()
          {
-         return View();
+             return View();
          }
          public IActionResult VerGaleriaSpa()
          {
-         return View();
+             return View();
          }
          public IActionResult Estetica()
          {
-         return View();
+             return View();
          }
          public IActionResult VerGaleriaEstetica()
          {
-         return View();
+             return View();
          }
          public IActionResult DetalleFacial()
          {
-         return View();
+             return View();
          }
          public IActionResult DetalleBotox()
          {
-         return View();
+             return View();
          }
          public IActionResult DetalleDepilacion()
          {
-         return View();
+             return View();
+
          }
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
