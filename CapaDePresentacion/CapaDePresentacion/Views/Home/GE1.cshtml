@@ -1,0 +1,142 @@
+﻿@page
+@model CapaDePresentacion.Views.Home.GE1Model
+@{
+    Layout = "~/Views/Shared/_LayoutGestEmpl.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/StyleSheet.css">
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link active" id="nav-home-tab" role="tab" aria-controls="nav-home" aria-selected="false">Perfil Pacientes</a>
+            <a class="nav-link" id="nav-profile-tab" href="/Home/GE1" role="tab" aria-controls="nav-profile" aria-selected="false">Ver Informacion Paciente</a>
+            <a class="nav-link" id="nav-contact-tab" href="/Home/GE2" role="tab" aria-controls="nav-contact" aria-selected="false">Historial Paciente</a>
+            <a class="nav-link" id="nav-contact-tab" href="/Home/GE3" role="tab" aria-controls="nav-contact" aria-selected="false">Horario Pacientes</a>
+        </div>
+    </nav>
+                           @* Pestañas menu *@
+
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <!-- Contenido de Perfil pacientes (negrita letras) (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <!-- Contenido de VerInfoPte (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Historial (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-horariopaciente" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Horario (pestañas) -->
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Cédula</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Correo Electrónico</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Género</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Acciones</th> @*Botón para ver historial*@
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>115670069</td>
+                <td>Esteban</td>
+                <td>Solano</td>
+                <td>EST@mdo</td>
+                <td>45</td>
+                <td>85672589</td>
+                <td>Masculino</td>
+                <td>San José, Desamparados</td>
+                <td>
+                    @*Botón para ver historial*@
+                    <a href="/Home/GE2" class="btn btn-info btn-sm">Ver Historial</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>115670070</td>
+                <td>Laura</td>
+                <td>Lopez</td>
+                <td>laura@correo.com</td>
+                <td>30</td>
+                <td>85673456</td>
+                <td>Femenino</td>
+                <td>Alajuela, Ciudad Quesada</td>
+                <td>
+                    @*Botón para ver historial*@
+                    <a href="/Home/GE2" class="btn btn-info btn-sm">Ver Historial</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>115670071</td>
+                <td>Pedro</td>
+                <td>Martínez</td>
+                <td>pedro@correo.com</td>
+                <td>40</td>
+                <td>85674567</td>
+                <td>Masculino</td>
+                <td>Heredia, San Pablo</td>
+                <td>
+                    @*Botón para ver historial*@
+                    <a href="/Home/GE2" class="btn btn-info btn-sm">Ver Historial</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>115670072</td>
+                <td>Clara</td>
+                <td>Jiménez</td>
+                <td>clara@correo.com</td>
+                <td>35</td>
+                <td>85675678</td>
+                <td>Femenino</td>
+                <td>Puntarenas, Cañas</td>
+                <td>
+                    @*Botón para ver historial*@
+                    <a href="/Home/GE2" class="btn btn-info btn-sm">Ver Historial</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>115670073</td>
+                <td>Sofía</td>
+                <td>Ramírez</td>
+                <td>sofia@correo.com</td>
+                <td>22</td>
+                <td>85678789</td>
+                <td>Femenino</td>
+                <td>Cartago, La Unión</td>
+                <td>
+                    @* Botón para ver historial *@
+                    <a href="/Home/GE2" class="btn btn-info btn-sm">Ver Historial</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

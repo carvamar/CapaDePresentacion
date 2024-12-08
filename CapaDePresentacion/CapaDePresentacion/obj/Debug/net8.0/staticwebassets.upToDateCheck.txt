@@ -9,6 +9,7 @@ wwwroot\images\cita.jpg
 wwwroot\images\estetica3.jpg
 wwwroot\images\logo.jpg
 wwwroot\images\OIP.jpg
+wwwroot\images\PerfilPtes.jpg
 wwwroot\images\person_1.jpg
 wwwroot\images\person_2.jpg
 wwwroot\images\person_3.jpg
@@ -27,6 +28,15 @@ wwwroot\images\pexels-tugba-ozturk-368300535-19572633.jpg
 wwwroot\images\R.jpg
 wwwroot\images\spa.jpg
 wwwroot\images\staff.jpg
+wwwroot\js\AccesoUsuarios.js
+wwwroot\js\CrearCuenta.js
+wwwroot\js\EditarDesactivarEliminar.js
+wwwroot\js\GestionEmpleado.js
+wwwroot\js\Horarios.js
+wwwroot\js\PerfilUsuario.js
+wwwroot\js\Registro.js
+wwwroot\js\ReportesSatisfaccion.js
+wwwroot\js\RolesPermisos.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

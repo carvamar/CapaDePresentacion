@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CapaDePresentacion",
-    "\\CapaDePresentacion\\CapaDePresentacion",
-    "\\CapaDePresentacion\\CapaDePresentacion\\Views",
-    "\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared"
+    ""
   ],
-  "SelectedNode": "\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\CapaDePresentacion.sln",
   "PreviewInSolutionExplorer": false
 }

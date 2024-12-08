@@ -1,0 +1,142 @@
+﻿@page
+@model CapaDePresentacion.Views.Home.PerfilUsuarioModel
+@{
+    // Layout = "~/Views/Shared/_LayoutPerfilUsuario.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/StyleSheet.css">
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link active" id="nav-home-tab" role="tab" aria-controls="nav-home" aria-selected="false">Perfil Usuario</a>         
+        </div>
+    </nav>
+    @* Pestañas menu *@
+
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <!-- Contenido de Perfil pacientes (negrita letras) (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <!-- Contenido de VerInfoPte (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Historial (pestañas) -->
+        </div>
+        <div class="tab-pane fade" id="nav-horariopaciente" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- Contenido de Horario (pestañas) -->
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <!-- Encabezado -->
+        <div class="text-center mb-4">
+            <h2>Configuración de Perfil</h2>
+            <p class="text-muted">Actualiza tu información o administra tu cuenta</p>
+        </div>
+
+        <!-- Formulario de Actualización de Perfil -->
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h4 class="card-title">Actualizar Información</h4>
+                <form id="profileForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu teléfono">
+                    </div>
+                    <h5 class="mt-4">Cambios Sensibles</h5>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu nuevo correo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="currentPassword" class="form-label">Contraseña Actual</label>
+                        <input type="password" class="form-control" id="currentPassword" placeholder="Confirma tu contraseña">
+                    </div>
+                    <div class="mb-3">
+                        <label for="newPassword" class="form-label">Nueva Contraseña</label>
+                        <input type="password" class="form-control" id="newPassword" placeholder="Ingresa tu nueva contraseña">
+                    </div>
+
+                    <button type="button" class="btn btn-primary mt-3" id="reviewChanges">Revisar Cambios</button>
+                    <button type="submit" class="btn btn-success mt-3 d-none" id="saveChanges">Guardar Cambios</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Resumen de Cambios -->
+        <div id="changesSummary" class="alert alert-info d-none">
+            <p><strong>Revisión de Cambios:</strong></p>
+            <ul id="changesList"></ul>
+        </div>
+
+        <!-- Botón y Modal de Eliminar Cuenta -->
+        <div class="text-center">
+            <button type="button" class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">
+                Eliminar Cuenta
+            </button>
+        </div>
+    </div>
+
+    <!-- Modales de Confirmación -->
+    <div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmDeleteModalLabel">¿Estás seguro de eliminar tu cuenta?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Al eliminar tu cuenta:</p>
+                    <ul>
+                        <li>Perderás acceso a todos los servicios.</li>
+                        <li>Todos tus datos serán eliminados permanentemente.</li>
+                        <li>Esta acción no se puede deshacer.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#finalDeleteModal">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="finalDeleteModal" tabindex="-1" aria-labelledby="finalDeleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="finalDeleteModalLabel">Confirmación Final</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esta es tu última oportunidad para cancelar. ¿Deseas eliminar tu cuenta de forma permanente?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <form id="deleteAccountForm" action="/Home/Index" method="POST">
+                        <button type="submit" class="btn btn-danger">Eliminar Cuenta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    @* Importante ver *@
+    <script src="~/js/PerfilUsuario.js"></script>
+</body>
+</html>

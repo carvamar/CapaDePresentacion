@@ -3,12 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\gestionusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\gestionusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\reportessatisfaccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\reportessatisfaccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\registrartratamientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\registrartratamientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\rolespermisos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\rolespermisos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\horarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\horarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\perfilpacientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\perfilpacientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\gestionempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\gestionempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutrolespermisos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutrolespermisos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutreportessatisfaccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutreportessatisfaccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutregistrotratamiento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutregistrotratamiento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutreginisesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutreginisesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layouthorarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layouthorarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutgestusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutgestusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layoutgestempl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layoutgestempl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\wwwroot\\css\\spa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\wwwroot\\css\\spa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\horario1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\horario1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\editardesactivareliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\editardesactivareliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\crearcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\crearcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\views\\home\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\views\\home\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|c:\\users\\esteb\\onedrive\\documentos\\progra avanzada\\capadepresentacion\\capadepresentacion\\capadepresentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5B9B7E-EFE1-4418-9662-C14C60DDC4C0}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 55,
+          "SelectedChildIndex": 54,
           "Children": [
             {
               "$type": "Bookmark",
@@ -238,26 +322,299 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionUsuarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\GestionUsuarios.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\GestionUsuarios.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\GestionUsuarios.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\GestionUsuarios.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwHQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T12:00:07.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportesSatisfaccion.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\ReportesSatisfaccion.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\ReportesSatisfaccion.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\ReportesSatisfaccion.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\ReportesSatisfaccion.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwG8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:58:56.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarTratamientos.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\RegistrarTratamientos.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\RegistrarTratamientos.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\RegistrarTratamientos.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\RegistrarTratamientos.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwIEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:58:35.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolesPermisos.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\RolesPermisos.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\RolesPermisos.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\RolesPermisos.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\RolesPermisos.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwIAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:58:18.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Horarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Horarios.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\Horarios.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Horarios.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\Horarios.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwIIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:57:57.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PerfilPacientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\PerfilPacientes.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\PerfilPacientes.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\PerfilPacientes.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\PerfilPacientes.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:57:04.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestionEmpleados.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\GestionEmpleados.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\GestionEmpleados.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\GestionEmpleados.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\GestionEmpleados.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:52:19.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutRolesPermisos.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRolesPermisos.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutRolesPermisos.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRolesPermisos.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutRolesPermisos.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:46:58.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutReportesSatisfaccion.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutReportesSatisfaccion.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutReportesSatisfaccion.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutReportesSatisfaccion.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutReportesSatisfaccion.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:46:47.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LayoutRegistroTratamiento.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRegistroTratamiento.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutRegistroTratamiento.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRegistroTratamiento.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutRegistroTratamiento.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:46:37.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Registro.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Registro.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\Registro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:28:42.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutHorarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutHorarios.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutHorarios.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutHorarios.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutHorarios.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAlwEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:46:13.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_LayoutRegIniSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRegIniSesion.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutRegIniSesion.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutRegIniSesion.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutRegIniSesion.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:53:57.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+              "RelativeToolTip": "CapaDePresentacion\\wwwroot\\css\\StyleSheet.css",
+              "ViewState": "AgIAADIBAAAAAAAAAADwv0gBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T09:59:23.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "spa.css",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\spa.css",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\wwwroot\\css\\spa.css",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\wwwroot\\css\\spa.css",
+              "RelativeToolTip": "CapaDePresentacion\\wwwroot\\css\\spa.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAqwMYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T09:57:02.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T21:40:13.266Z",
+              "WhenOpened": "2024-12-08T09:40:02.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
+              "Title": "_LayoutGestEmpl.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutGestEmpl.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutGestEmpl.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutGestEmpl.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutGestEmpl.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:01:26.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LayoutGestUsuarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutGestUsuarios.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Shared\\_LayoutGestUsuarios.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Shared\\_LayoutGestUsuarios.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Shared\\_LayoutGestUsuarios.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:07:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Horario1.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Horario1.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\Horario1.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\Horario1.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\Horario1.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:29:34.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditarDesactivarEliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\EditarDesactivarEliminar.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\EditarDesactivarEliminar.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\EditarDesactivarEliminar.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\EditarDesactivarEliminar.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwF8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:29:27.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IniciarSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\IniciarSesion.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\IniciarSesion.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\IniciarSesion.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\IniciarSesion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:37:50.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CrearCuenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\CrearCuenta.cshtml",
+              "RelativeDocumentMoniker": "CapaDePresentacion\\Views\\Home\\CrearCuenta.cshtml",
+              "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Views\\Home\\CrearCuenta.cshtml",
+              "RelativeToolTip": "CapaDePresentacion\\Views\\Home\\CrearCuenta.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:10:34.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CapaDePresentacion\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\esteb\\OneDrive\\Documentos\\Progra Avanzada\\CapaDePresentacion\\CapaDePresentacion\\CapaDePresentacion\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CapaDePresentacion\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswB8AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowFkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T21:39:55.813Z",
               "EditorCaption": ""

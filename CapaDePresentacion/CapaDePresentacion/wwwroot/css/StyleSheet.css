@@ -292,3 +292,61 @@ footer .text-center p {
     background-color: #8f6740;
     color: white;
 }
+
+
+
+    /*Todos lo Botones Global del proyecto*/
+button {
+    background-color: #D7A37B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+    button:hover {
+        background-color: #816149;
+        color: white;
+    }
+/*Todos lo Botones Primary(color azul pordefecto) del proyecto*/
+.btn-primary {
+    background-color: #816149; 
+    color: white; 
+    border: none; 
+}
+ /*le cambia el encabezado ala carta param cambiarla a color-profile cafe*/
+.card-custom-header {
+    background-color: #816149;
+    color: white;
+}
+
+.card-header {
+    background-color: #816149;
+    color: white;
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #816149 !important;
+}
+
+.nav-link {
+    color: #5a5a5a;
+}
+
+.btn-info {
+    --bs-btn-bg: #816149;
+
+}
+
+.active > .page-link, .page-link.active {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #816149;
+}
+
+.page-link {
+    color: #212529;
+}
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: #212529 !important;
+}
