@@ -1,0 +1,161 @@
+
+@{
+    ViewData["Title"] = "Finanzas";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Financiera</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Finanzas.css">
+</head>
+<body>
+
+
+    <!-- Sección Principal -->
+    <div class="container my-4">
+        <!-- Sección Registro de Ingresos -->
+        <section id="ingresos" class="mb-5">
+            <h2 class="text-secondary mb-3">Registro de Ingresos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="form-ingresos">
+                        <div class="mb-3">
+                            <label for="tipoIngreso" class="form-label">Tipo de Ingreso</label>
+                            <select id="tipoIngreso" class="form-select">
+                                <option value="unico">Único</option>
+                                <option value="recurrente">Recurrente</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="monto" class="form-label">Monto</label>
+                            <input type="number" class="form-control" id="monto" placeholder="Ej. 500">
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha</label>
+                            <input type="date" class="form-control" id="fecha">
+                        </div>
+                        <button type="button" class="btn custom-button" onclick="agregarIngreso()">Registrar Ingreso</button> <!-- Color del Boton -->
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Historial de Ingresos</h4>
+                    <table class="table table-striped" id="tabla-ingresos">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Monto</th>
+                                <th>Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Aquí se agregarán los registros dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Ventas -->
+        <section id="ventas" class="mb-5">
+            <h2 class="text-secondary mb-3">Registro de Ventas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="form-ventas">
+                        <div class="mb-3">
+                            <label for="cliente" class="form-label">Nombre del Cliente</label>
+                            <input type="text" class="form-control" id="cliente" placeholder="Ej. Juan Pérez">
+                        </div>
+                        <div class="mb-3">
+                            <label for="servicio" class="form-label">Servicio Vendido</label>
+                            <input type="text" class="form-control" id="servicio" placeholder="Ej. Tour">
+                        </div>
+                        <div class="mb-3">
+                            <label for="montoVenta" class="form-label">Monto</label>
+                            <input type="number" class="form-control" id="montoVenta" placeholder="Ej. 200">
+                        </div>
+                        <button type="button" class="btn custom-button" onclick="agregarVenta()">Registrar Venta</button> 
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Historial de Ventas</h4>
+                    <table class="table table-striped" id="tabla-ventas">
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Servicio</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Registros dinámicos -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reportes y Comparaciones -->
+        <section id="reportes" class="mb-5">
+            <h2 class="text-secondary mb-3">Reportes y Comparaciones</h2>
+            <div class="d-flex justify-content-around">
+                <button class="btn custom-button" onclick="generarResumenMensual()">Generar Resumen Mensual</button>
+                <button class="btn custom-button" onclick="exportarReporte()">Exportar Reporte Anual</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS y JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function agregarIngreso() {
+            let tipo = document.getElementById("tipoIngreso").value;
+            let monto = document.getElementById("monto").value;
+            let fecha = document.getElementById("fecha").value;
+
+            if (monto && fecha) {
+                let tabla = document.querySelector("#tabla-ingresos tbody");
+                tabla.innerHTML += `<tr>
+                    <td>${tipo}</td>
+                    <td>${monto}</td>
+                    <td>${fecha}</td>
+                </tr>`;
+                alert("Ingreso registrado exitosamente");
+            } else {
+                alert("Por favor completa todos los campos");
+            }
+        }
+
+        function agregarVenta() {
+            let cliente = document.getElementById("cliente").value;
+            let servicio = document.getElementById("servicio").value;
+            let monto = document.getElementById("montoVenta").value;
+
+            if (cliente && servicio && monto) {
+                let tabla = document.querySelector("#tabla-ventas tbody");
+                tabla.innerHTML += `<tr>
+                    <td>${cliente}</td>
+                    <td>${servicio}</td>
+                    <td>${monto}</td>
+                </tr>`;
+                alert("Venta registrada exitosamente");
+            } else {
+                alert("Por favor completa todos los campos");
+            }
+        }
+
+        function generarResumenMensual() {
+            alert("Resumen mensual generado correctamente");
+        }
+
+        function exportarReporte() {
+            alert("El reporte anual ha sido exportado");
+        }
+    </script>
+</body>
+</html>
+

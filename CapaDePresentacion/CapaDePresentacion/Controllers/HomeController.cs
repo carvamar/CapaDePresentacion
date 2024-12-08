@@ -28,6 +28,16 @@ namespace CapaDePresentacion.Controllers
             return View();
         }
 
+        public IActionResult Finanzas()
+        {
+            return View();
+        }
+
+        public IActionResult Clientes()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
 		{
 			return View();

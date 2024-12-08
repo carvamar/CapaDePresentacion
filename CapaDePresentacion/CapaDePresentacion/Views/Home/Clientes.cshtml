@@ -1,0 +1,221 @@
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Clientes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Finanzas.css">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Clientes</h2>
+
+        <!-- Programa de Lealtad -->
+        <div class="card mb-4">
+            <div class="card-header text-white d-flex justify-content-between" style="background-color: #a67b5b;">
+                <h5 class="mb-0">Programa de Lealtad</h5>
+                <button class="btn custom-button" id="btnInscribirCliente"><i class="bi bi-plus-circle"></i> Inscribir Cliente</button>
+            </div>
+            <div class="card-body">
+                <table id="tablaLealtad" class="table table-striped table-custom text-center">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Puntos Acumulados</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Juan Pérez</td>
+                            <td>120</td>
+                            <td>
+                                <button class="btn custom-button btn-sm btnRedimir">Redimir Puntos</button>
+                                <button class="btn custom-button btn-sm btnActualizar">Actualizar Puntos</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Historial de Tratamientos -->
+        <div class="card mb-4">
+            <div class="card-header text-white" style="background-color: #a67b5b;">
+                <h5 class="mb-0">Historial de Tratamientos</h5>
+            </div>
+            <div class="card-body">
+                <p>Registre y consulte tratamientos realizados a clientes.</p>
+                <table class="table table-hover table-custom text-center">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Tratamientos Realizados</th>
+                            <th>Recomendaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Luisa Martínez</td>
+                            <td>Masaje Relajante, Spa Facial</td>
+                            <td>Masaje Antiestrés</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Pedro López</td>
+                            <td>Tratamiento Capilar</td>
+                            <td>Tratamiento Detox</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Gestión de Citas -->
+        <div class="card mb-4">
+            <div class="card-header text-white" style="background-color: #a67b5b;">
+                <h5 class="mb-0">Gestión de Citas</h5>
+            </div>
+            <div class="card-body">
+                <table id="tablaCitas" class="table table-bordered table-custom text-center">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Fecha y Hora</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ana Torres</td>
+                            <td>2024-07-02 10:00 AM</td>
+                            <td>
+                                <button class="btn custom-button btn-sm btnReprogramar">Reprogramar</button>
+                                <button class="btn custom-button btn-sm btnCancelar">Cancelar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Preguntas Frecuentes -->
+        <div class="card mb-4">
+            <div class="card-header text-white" style="background-color: #a67b5b;">
+                <h5 class="mb-0">Preguntas Frecuentes</h5>
+            </div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Buscar preguntas frecuentes" id="searchFAQ">
+                    <button class="btn custom-button" type="button" id="btnBuscarFAQ">Buscar</button>
+                </div>
+                <ul class="list-group" id="listaFAQ">
+                    <li class="list-group-item">¿Cuáles son los horarios de atención?</li>
+                    <li class="list-group-item">¿Qué beneficios ofrece el programa de lealtad?</li>
+                    <li class="list-group-item">¿Cómo puedo reprogramar una cita?</li>
+                    <li class="list-group-item">¿Qué promociones hay este mes?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Funcionalidad para Inscribir Cliente
+        document.getElementById("btnInscribirCliente").addEventListener("click", () => {
+            const nombre = prompt("Ingrese el nombre del cliente:");
+            if (nombre) {
+                const tabla = document.querySelector("#tablaLealtad tbody");
+                const newRow = `
+                    <tr>
+                        <td>${tabla.rows.length + 1}</td>
+                        <td>${nombre}</td>
+                        <td>0</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm btnRedimir">Redimir Puntos</button>
+                            <button class="btn btn-info btn-sm btnActualizar">Actualizar Puntos</button>
+                        </td>
+                    </tr>`;
+                tabla.insertAdjacentHTML("beforeend", newRow);
+            }
+        });
+
+        // Redimir Puntos
+        document.addEventListener("click", (e) => {
+            if (e.target.classList.contains("btnRedimir")) {
+                const puntos = prompt("Ingrese los puntos a redimir:");
+                if (puntos && !isNaN(puntos)) {
+                    alert(`Se han redimido ${puntos} puntos.`);
+                }
+            }
+        });
+
+        // Actualizar Puntos
+        document.addEventListener("click", (e) => {
+            if (e.target.classList.contains("btnActualizar")) {
+                const puntos = prompt("Ingrese los nuevos puntos acumulados:");
+                if (puntos && !isNaN(puntos)) {
+                    const row = e.target.closest("tr");
+                    row.children[2].textContent = puntos;
+                    alert("Puntos actualizados correctamente.");
+                }
+            }
+        });
+
+        // Reprogramar Cita
+        document.addEventListener("click", (e) => {
+            if (e.target.classList.contains("btnReprogramar")) {
+                const nuevaFecha = prompt("Ingrese la nueva fecha y hora (YYYY-MM-DD HH:MM):");
+                if (nuevaFecha) {
+                    const row = e.target.closest("tr");
+                    row.children[2].textContent = nuevaFecha;
+                    alert("Cita reprogramada correctamente.");
+                }
+            }
+        });
+
+        // Cancelar Cita
+        document.addEventListener("click", (e) => {
+            if (e.target.classList.contains("btnCancelar")) {
+                if (confirm("¿Está seguro de cancelar esta cita?")) {
+                    e.target.closest("tr").remove();
+                    alert("Cita cancelada.");
+                }
+            }
+        });
+
+        // Buscar en Preguntas Frecuentes
+        document.getElementById("btnBuscarFAQ").addEventListener("click", () => {
+            const searchValue = document.getElementById("searchFAQ").value.toLowerCase();
+            const items = document.querySelectorAll("#listaFAQ li");
+            items.forEach(item => {
+                item.style.display = item.textContent.toLowerCase().includes(searchValue) ? "" : "none";
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
